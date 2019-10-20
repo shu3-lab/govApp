@@ -6,4 +6,4 @@ It's to be continued.
 <br>
 https://qiita.com/Shu3/items/799a88f7e01e1033ad5b
 <br>
-This is my blog about govApp's code.
+This is my blog about my code of gmvApp.
