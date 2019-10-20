@@ -1,0 +1,25 @@
+{
+  "name": "govapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shu3-lab/govApp.git"
+  },
+  "author": "shu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shu3-lab/govApp/issues"
+  },
+  "homepage": "https://github.com/shu3-lab/govApp#readme",
+  "dependencies": {
+    "all": "0.0.0",
+    "fast-xml-parser": "^3.13.0",
+    "request": "^2.88.0",
+    "url-join": "^4.0.1"
+  }
+}
