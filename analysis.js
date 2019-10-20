@@ -2,7 +2,7 @@ var req = require('request');
 var urljoin = require('url-join');
 var parser = require('fast-xml-parser');   
 
-var url1 = 'http://api.e-stat.go.jp/rest/2.1/app/getStatsData?appId=b478bf7f8272b4102f88789f9bd4268620f14e14&lang=J&statsDataId=0003254482&metaGetFlg=Y&cntGetFlg=N&sectionHeaderFlg=1'
+var url1 = 'http://api.e-stat.go.jp/rest/2.1/appId=xxxxx&lang=J&statsDataId=0003254482&metaGetFlg=Y&cntGetFlg=N&sectionHeaderFlg=1'
 var options = {
     url: url1,
     method: 'GET'
