@@ -3,7 +3,7 @@ var urljoin = require('url-join');
 var parser = require('fast-xml-parser');   
 
 var url = 'https://api.e-stat.go.jp/rest/1.0/app/getStatsList';
-var appId = 'xxxxxxu';
+var appId = 'xxxxxx';
 var lang = 'ja';
 
 //政府統計コード
