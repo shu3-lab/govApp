@@ -2,7 +2,11 @@ var req = require('request');
 var parser = require('fast-xml-parser');   
 var statistics = require('simple-statistics');
 
+<<<<<<< HEAD
 var url1 = 'https://api.e-stat.go.jp/rest/2.1/app/getStatsData?appId=XXXXXXXXXXXXXX&lang=J&statsDataId=0003288734&metaGetFlg=Y&cntGetFlg=N&sectionHeaderFlg=1'
+=======
+var url1 = 'http://api.e-stat.go.jp/rest/2.1/appId=xxxxx&lang=J&statsDataId=0003254482&metaGetFlg=Y&cntGetFlg=N&sectionHeaderFlg=1'
+>>>>>>> origin/master
 var options = {
     url: url1,
     method: 'GET'
@@ -37,6 +41,7 @@ req(options, function (error, response, body) {
             dashList.push(data.value);
         }
 
+<<<<<<< HEAD
     }
     //配列の値を全て数値にする
     longRunList = paramChange(longRunList);
@@ -55,3 +60,6 @@ function paramChange(dataList){
     }
     return dataList;
 }
+=======
+})
+>>>>>>> origin/master
