@@ -7,3 +7,9 @@ It's to be continued.
 https://qiita.com/Shu3/items/799a88f7e01e1033ad5b
 <br>
 This is my blog about my code of gmvApp.
+<br>
+####getInfo.js
+Code for executing the API to get data of statistical information of Japan.
+<br>
+####analysis.js
+Code for analyzing getting data by method of statistic.
